@@ -1,0 +1,175 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    background-color: #f2f7fa;
+    background-image: url('../img/background.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: #333333;
+}
+
+.header-main {
+    background-color: #2d3436;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+}
+
+.logo {
+    flex: 1;
+    text-align: left;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    transition: color 200ms ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #a6d8ff;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+  
+nav a:hover {
+    color: #00f7ff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+}
+
+.textbox-container ul{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.loginsignupform{
+    padding: 8px;
+    width: 25%;
+    border-left: solid 5px rgb(49, 79, 212);
+    border-radius: 2%;
+}
+
+.textbox-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 270px;
+    width: 85%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.contentbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+}
+
+.contentbox img {
+    height: 100%;
+}
+
+.textbox-container textarea {
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+.winter-emoji::before {
+    content: "\2744"; /* Snowflake emoji */
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

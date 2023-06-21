@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url(./fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+
+:root {
+    --menu-count: 3;
+}
+
+body {
+    background-color: #fff;
+}
+
+.header-main {
+    width: 100%;
+    padding: 0 20px;
+    height: 60px;
+    background-color: #7090e9;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.header-main nav {
+    display:flex;
+}
+
+.header-main .icon {
+    height:50px;
+    width: fit-content;
+    align-self: center;
+    cursor: pointer;
+}
+
+.header-main .icon img {
+    height: 100%;
+}
+
+.header-main ul {
+    height: 100%;
+    padding-left: 40px;
+    list-style: none;
+    display: flex;
+    align-self: center;
+}
+
+.header-main ul li a {
+    display: block;
+    padding: 0 10px;
+    height: 100%;
+    line-height: 60px;
+    font-size: 1rem;
+    font-family: RobotoMedium;
+    color: #000000;
+    background-color: #7090e9;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all ease-in-out 100ms;
+}
+
+.header-main a {
+    text-decoration: none;
+}
+
+.header-main ul li a:hover {
+    background-color: #24448a;
+    color: #ffffff;
+}
+
+main {
+    margin-top:80px;
+}
+
+main article {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #7090e9;
+    padding: 2%;
+    border-radius: 30px;
+    border-color: #a8bcf3d7;
+    border-width: 3px;
+    border-style: solid;
+}
+
+main p{
+    font-family: Roboto;
+    color: #000;
+    text-align: center;
+}
+
+main .pagetitle {
+    font-family: RobotoBold;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
