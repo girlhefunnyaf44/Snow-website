@@ -53,7 +53,7 @@
                 <br>
                 <br>
                 Come join us on our discord server!
-                <a href="https://discord.gg/Jmky3Z6X">https://discord.gg/Jmky3Z6X</a>
+                <a href="Lol"></a>
                 </p>
             </div>
         </div>
